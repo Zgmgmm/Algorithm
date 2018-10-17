@@ -15,9 +15,9 @@ import java.util.*
 import java.util.concurrent.CountDownLatch
 
 
-inline fun randFLT(min: Double, max: Double) = Math.random() * (max - min) + min
-inline fun Pair<Point, Point>.toLine(color: Color = Color.BLACK) = Line(this.first, this.second, color)
-inline operator fun Point.minus(other: Point) = Line(this, other)
+fun randFLT(min: Double, max: Double) = Math.random() * (max - min) + min
+fun Pair<Point, Point>.toLine(color: Color = Color.BLACK) = Line(this.first, this.second, color)
+operator fun Point.minus(other: Point) = Line(this, other)
 class Closest : View() {
     lateinit var canvas: Canvas
     lateinit var ctx: GraphicsContext
