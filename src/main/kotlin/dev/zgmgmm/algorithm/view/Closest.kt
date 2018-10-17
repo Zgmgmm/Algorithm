@@ -1,4 +1,4 @@
-package com.example.demo.view
+package dev.zgmgmm.algorithm.view
 
 import javafx.application.Platform
 import javafx.geometry.Pos

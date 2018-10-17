@@ -1,4 +1,4 @@
-package com.example.demo.view
+package dev.zgmgmm.algorithm.view
 
 import javafx.scene.canvas.Canvas
 import javafx.scene.canvas.GraphicsContext
